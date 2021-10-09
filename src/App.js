@@ -7,6 +7,7 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 
 import './App.css';
 
+// this is beginning
 const App = () =>{
   useEffect(()=>{
     //Init Materialize JS
