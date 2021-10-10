@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import LogItem from './LogItem';
+import Preloader from './../layout/Preloader';
+import { connect } from 'react-redux';
 
 const Logs = () => {
     const [logs, setLogs] = useState([]);
@@ -20,7 +22,7 @@ const Logs = () => {
     }
 
     if(loading) {
-        return <h4>Loading...</h4>
+        return <Preloader />
     }
 
     return (

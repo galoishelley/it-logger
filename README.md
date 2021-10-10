@@ -78,3 +78,8 @@ npm i -D json-server concurrently
  npm install materialize-css   
  ## install react-moment
  npm i moment react-moment
+ ## css-loader
+ npm install --save-dev style-loader css-loader
+ ## redux
+ npm i redux react-redux redux-thunk redux-devtools-extension
+ 
